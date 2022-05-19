@@ -357,12 +357,18 @@ a {
     min-width: 205px;
 }
 
+.left {
+    display: flex;
+    justify-content: center;
+}
+
 .copyright_text {
+
     font-family: 'Lato';
     font-style: normal;
     color: #fff;
     margin-left: 235px;
-    margin-top: 20px;
+    margin-top: 15px;
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
@@ -370,4 +376,30 @@ a {
 
 .copyright {
     display: block;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.ico {
+    margin: 10px;
+    height: 32px;
+}
+
+
+.fa {
+
+    border-radius: 1px;
+    font-size: 32px;
+    color: #FFFFFF;
+    background-color: #000000;
+}
+
+.fa:hover {
+    color: #F16D7F;
+    background-color: #fff;
 }
